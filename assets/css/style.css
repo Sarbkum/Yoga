@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
-
-
-
-
 /*----------------------General*/
 
 body {
@@ -14,9 +8,7 @@ body {
 
 }
 
-#navbarNav{
-    color:orange;
-}
+
 /* Hero section */
 #hero {
     height: 600px;
