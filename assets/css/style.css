@@ -1,16 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*General Settings*/
 
 
-/*Hero Image*/
-.bg-image {
-    background: url('../images/Yoga\ Project\ Hero\ Image.png');
-    background-repeat: no-repeat;
-    height: 500px;
+
+
+
+/*----------------------General*/
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto' sans-serif;
+
+}
+
+#navbarNav{
+    color:orange;
+}
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Yoga\ Project\ Hero\ Image.png") no-repeat center center/cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 
+h1 {
+    font-size: 30px;
+}
 
+.navbar {
+    color: red;
+}
 
-/*Footer Settings*/
+.nav-link {
+    color: red;
+}
+
+.home-middle {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #f47a3f;
+}
+
+.footer-row {
+    margin-top: 30px;
+}
+
+/*-------Form-----*/
+.content-area {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
