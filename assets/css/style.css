@@ -12,7 +12,7 @@ body {
 /* Hero section */
 #hero {
     height: 600px;
-    width: 100%;
+    width: 95%;
     background: url("../images/Yoga-Project-Hero-Image.png") no-repeat center center/cover;
     position: relative;
     border-radius: 20px;
@@ -23,6 +23,9 @@ body {
     color: #f15860;
     font-weight: bold;
 }
+
+/*---------Fonts*/
+
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -66,15 +69,27 @@ footer {
     margin-top: 30px;
   
 }
+footer ul li a {
+    text-decoration: none;
+}
 
 /*-------Form-----*/
 .content-area {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 /*------Yoga Card*/
 
 .yoga-card {
-margin-top: 200px;
+margin-top: 150px;
+margin-bottom: 150px;
+}
+
+.socials {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+   
+    list-style-type: none;
 }
