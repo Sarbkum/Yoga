@@ -25,7 +25,7 @@ a:hover {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/Yoga-Project-Hero-Image.png") no-repeat center center/cover;
+    background: url("../images/Yoga-Project-Hero-Image.png") no-repeat left center/cover;
     position: relative;
 }
 
@@ -41,9 +41,12 @@ a:hover {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+/*#cover-text > h2, #cover-text > h3 {
     color: #ffffff;
-}
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:34px;
+    color:#1e0010;
+}*/
 /*----------Colours------*/
 .list_heading {
     color: #f47a3f;
@@ -53,6 +56,19 @@ a:hover {
 /*---------Fonts*/
 
 
+.main-Text {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color:#ee4076;
+}
+
+.secondary-text {
+    font-family: 'Roboto' sans-serif;
+    font-weight:lighter;
+    font-size: 40px;
+    color:#1e0010;
+}
 
 h1, h2, h3, h4 {
     font-size: 25px;
@@ -60,11 +76,15 @@ h1, h2, h3, h4 {
 
 
 .navbar {
-    color: red;
+    font-family: 'Robot' sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .nav-link {
-    color: red;
+    color:black;
+    
+    font-weight: 600px;
 }
 
 .home-middle {
@@ -120,5 +140,10 @@ footer ul li a {
     padding-bottom: 80px;
 }
 
-
-
+/*----logo-------*/
+.navbar-brand {
+    height: 100px;
+    width: 250px;
+    background: url("../images/Yoga--for-you-logo.png") no-repeat center center/cover;
+  
+}
