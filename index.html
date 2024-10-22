@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#myClasses">Classes</a>
@@ -36,7 +36,7 @@
                             <a class="nav-link" href="#myTutor">Tutor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contactForm">Contact Us</a>
                         </li>
 
                     </ul>
@@ -58,7 +58,7 @@
     <!--About Section-->
     <div class="container about-section">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="h-100 p-5 text-bg-light rounded-3">
                     <h2>A Journey of Mind, Body, and Spirit</h2>
                     <p>Yoga, an ancient practice originating in India, offers a holistic approach to well-being. It
@@ -75,16 +75,51 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
+                <div id=""></div>
                 <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-                    <h2>Getting Started with Yoga</h2>
-                    <p>If you're new to yoga, it's recommended to start with a beginner's class to learn the basics and
-                        ensure proper form. A qualified yoga teacher can guide you through the poses and provide
-                        personalized advice.</p>
-                    <button class="btn btn-outline-secondary" type="button">Enquire Today</button>
+                    <h2>Get Started with Yoga</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPhone">Phone</label>
+                            <input type="tel" class="form-control" id="inputPhone">
+                        </div>
+
+
+                        <div class="form-group col-md-4">
+                            <label for="inputlesson">Lessons</label>
+                            <select id="inputlesson" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Beginners</option>
+                                <option>Advance</option>
+                                <option>Instructors</option>
+                            </select>
+                        </div>
+
                 </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            I agree to the <span><a href="#">terms and conditions</a></span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Register Today</button>
+                </form>
             </div>
         </div>
+    </div>
     </div>
 
 
@@ -94,36 +129,34 @@
         <div id="myClasses"></div>
 
         <div class="row gy-3 yoga-card">
-            <h2 class="text-center fw-bold">Be Relaxed, Well and Happy - Yoga Classes</h2>
+            <h2 class="text-center fw-bold mb-4">Be Relaxed, Well and Happy - Yoga Classes</h2>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="./assets/images/Yoga-classes-banner.png" class="card-img-top" alt="yoga class">
+                    <img src="./assets/images/Yoga-classes-banner.png" class="card-img-top" alt="Beginner yoga class">
                     <div class="card-body">
                         <h5 class="card-title">Beginners Classes</h5>
-                        <p class="card-text">6:45 PM – 8:15 PM BST</p>
+                        <p class="card-text">6:45 PM – 8:15 PM Monday</p>
                         <a href="#" class="btn btn-secondary">Book Today</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="./assets/images/Yoga-Times-image.png" class="card-img-top" alt="yoga class">
+                    <img src="./assets/images/Yoga-Times-image.png" class="card-img-top" alt="Advance yoga class">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                        <h5 class="card-title">Advance Classes</h5>
+                        <p class="card-text">6:45 PM – 8:15 PM Wednesday</p>
                         <a href="#" class="btn btn-secondary">Book Today</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="./assets/images/Yoga-Classes.png" class="card-img-top" alt="yoga class">
+                    <img src="./assets/images/Yoga-Classes.png" class="card-img-top" alt="Instructor yoga class">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        <h5 class="card-title">Instructor Classes</h5>
+                        <p class="card-text">6:45 PM – 8:15 PM Friday</p>
+                        <a href="#" class="btn btn-secondary">Book Today</a>
                     </div>
                 </div>
             </div>
@@ -138,31 +171,29 @@
             <div class="col-md-3">
                 <div class="text-center">
                     <img src="./assets/images/KW-featured-image.png.webp" class="rounded img-fluid img-thumbnail"
-                        alt="...">
+                        alt="Yoga Instructor Krishna Kaur">
                 </div>
 
             </div>
             <div class="col-md-9">
                 <div class="h-100 p-5 bg-body-tertiary border rounded-3">
                     <h2>Krishna Kaur</h2>
-                    <p>A well-known master teacher trainer of Kundalini Yoga (as taught by Yogi Bhajan), Krishna Kaur
-                        has taught the art of Kundalini Yoga and Self Awareness for over 40 years. In her four decades
-                        of experience, she’s expanded her wealth of knowledge, her experience, and her workshops to
-                        inner cities in the United States, Mexico, Africa, Europe, Asia, Canada, Latin America, and
-                        beyond.</p>
+                    <p>Krishna Kaur, a dynamic, heart centered Yoga teacher, began studying yoga in 1970 and has
+                        passionately taught the art and science of Kundalini Yoga and Self Awareness for over 40 years.
+                        She brings a wealth of knowledge and experience from her teaching in Africa, Mexico, and inner
+                        cities throughout the United States. A master teacher trainer, she conducts workshops in Canada,
+                        Europe, Asia and Latin America.</p>
 
-                    <p>In addition to her impactful teaching, Kaur is certified by the 3HO Foundation and the Kundalini
-                        Research Institute as a Kundalini Yoga Teacher and Trainer, she is the regional coordinator for
-                        3HO Africa (which helps to unite Kundalini Yoga in Africa), is the founder of Y.O.G.A for Youth
-                        (a non-profit dedicated to training yoga teachers to work with at-risk youth and creating yoga
-                        programs in juvenile facilities and schools), and established the first yoga center in South
-                        Central L.A.</p>
+                    <p>Krishna is certified by the 3HO Foundation and the Kundalini Research Institute as a Kundalini
+                        Yoga Teacher and Trainer of both Level I and II. She is the regional coordinator for 3HO Africa,
+                        which unites Kundalini Yoga in Africa. Krishna also founded and runs Y.O.G.A. for Youth, a
+                        non-profit dedicated to training yoga teachers to work with at-risk youth and creating yoga
+                        programs in schools and juvenile facilities.</p>
 
-                    <p> Kaur is best known for her impactful workshops, her yoga teacher training programs, and most of
-                        all, her passion and dedication for bringing yoga to the underserved populations throughout the
-                        world. </p>
+                                       
+                    <h2 class="mb-4">A Journey of Mind, Body, and Spirit</h2>
                     <button class="btn btn-outline-secondary" type="button">Enquire Today</button>
-                    <h2>A Journey of Mind, Body, and Spirit</h2>
+                    <p class="fs-6 fst-italic text-muted"> Content is used for educational purpose</p>
 
                 </div>
             </div>
@@ -192,19 +223,20 @@
 
                 <div>
                     <ul class="list-inline list-inline-item socials">
-                        <li> <a href="" class="me-4 text-reset">
+                        <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new tab)" class="me-4 text-reset">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a></li>
-                        <li> <a href="" class="me-4 text-reset">
+                        <li> <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Twitter page (opens in a new tab)" class="me-4 text-reset">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a></li>
-                        <li><a href="" class="me-4 text-reset">
-                                <i class="fa fa-google" aria-hidden="true"></i>
-                            </a></li>
-                        <li><a href="" class="me-4 text-reset">
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Instagram page (opens in a new tab)" class="me-4 text-reset">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                             </a></li>
-                        <li><a href="" class="me-4 text-reset">
+                        <li><a href="https://www.inkedin.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Linkedin page (opens in a new tab)" class="me-4 text-reset">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                             </a></li>
 
@@ -221,10 +253,10 @@
                     <a href="#" class="text-reset">Home</a>
                 </p>
                 <p>
-                    <a href="#" class="text-reset">Services</a>
+                    <a href="#myClasses" class="text-reset">Classes</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Tutors</a>
+                    <a href="#myTutor" class="text-reset">Tutor</a>
                 </p>
                 <p>
                     <a href="#!" class="text-reset">Contact</a>

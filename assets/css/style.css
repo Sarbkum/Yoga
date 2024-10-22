@@ -2,6 +2,11 @@
 
 /*----------------------General*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 100%;
     font-family: 'Roboto' sans-serif;
@@ -9,11 +14,12 @@ body {
 }
 
 
+
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url("images/Yoga-Project-Hero-Image.png") no-repeat center center/cover;
+    background: url("../../images/Yoga-Project-Hero-Image.png") no-repeat center center/cover;
     position: relative;
 }
 
@@ -98,7 +104,7 @@ footer ul li a {
 
 /*--Classes Section*/
 .classes-section {
-           padding-top: 100px;
+    padding-top: 200px;
  
 }
 
@@ -107,4 +113,6 @@ footer ul li a {
     padding-top: 100px;
     padding-bottom: 80px;
 }
+
+
 
