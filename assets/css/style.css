@@ -19,7 +19,7 @@ body {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../../images/Yoga-Project-Hero-Image.png") no-repeat center center/cover;
+    background: url("../images/Yoga-Project-Hero-Image.png") no-repeat center center/cover;
     position: relative;
 }
 
