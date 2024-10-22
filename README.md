@@ -51,8 +51,7 @@ Search functionality to quickly find specific content.
 
 ### Wireframes
 
-sdfsfsdfd
-
+[Header, Hero and About Section](/assets/images/Wireframe/header-banner-about.png)
 
 
 
