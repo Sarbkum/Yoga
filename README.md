@@ -12,6 +12,7 @@ This website is created as part of the Code Institute Full Stack Software Develo
 <h2 align="center" id="TOC">Table of Contents</h2>
 
 *    - [UX Design](#ux-design)
+      - [HTML Structure](#html)
       - [Colors](#colors)
       - [Fonts](#fonts)
       - [Imagery](#imagery)
@@ -33,6 +34,19 @@ This website is created as part of the Code Institute Full Stack Software Develo
   - [Acknowledgements](#acknowledgements)
 
 
+
+##ux-design
+
+Before diving into the design, it's crucial to define the target audience and their needs:
+
+Beginners: Need clear guidance, simple instructions, and a welcoming atmosphere.
+Experienced practitioners: Seek diverse content, advanced poses, and opportunities to connect with a community.
+Yoga teachers: Require tools for sharing their knowledge, promoting their classes, and connecting with potential students.
+Key UXD Principles:
+
+Intuitive Navigation:
+Clear and consistent menu structure.
+Search functionality to quickly find specific content.
 
 
 
