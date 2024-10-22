@@ -52,6 +52,7 @@ Search functionality to quickly find specific content.
 ### Wireframes
 
 [Header, Hero and About Section](/assets/images/Wireframe/header-banner-about.png)
+![Desktop Wireframe](/assets/images/Wireframe/Web%201920%20–%201@2x.png)
 
 
 
