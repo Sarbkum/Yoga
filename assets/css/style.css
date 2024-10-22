@@ -15,7 +15,7 @@ body {
 a {
     text-decoration: none;
 }
-a:hover {
+.footer-row > a:hover {
     color: white;
 }
 
@@ -146,4 +146,26 @@ footer ul li a {
     width: 250px;
     background: url("../images/Yoga--for-you-logo.png") no-repeat center center/cover;
   
+}
+
+/*--Copyright---*/
+.copyright-text {
+    font-size: 12px;
+}
+
+/*button*/
+
+.button-bg {
+    background-color: #f47a3f;
+    color: #1e0010;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button-bg:hover {
+    background-color: #D3D3D3  ;
+    color: #f47a3f;
+}
+
+.card {
+
 }
