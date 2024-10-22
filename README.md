@@ -15,7 +15,6 @@ This website is created as part of the Code Institute Full Stack Software Develo
       - [HTML Structure](#html)
       - [Colors](#colors)
       - [Fonts](#fonts)
-      - [Imagery](#imagery)
       - [Wireframes](#wireframes)
 * [Features](#features)
     - [Navigation and Hero Section](#navigation-and-hero-section)
@@ -35,7 +34,7 @@ This website is created as part of the Code Institute Full Stack Software Develo
 
 
 
-##ux-design
+#ux-design
 
 Before diving into the design, it's crucial to define the target audience and their needs:
 
@@ -47,6 +46,12 @@ Key UXD Principles:
 Intuitive Navigation:
 Clear and consistent menu structure.
 Search functionality to quickly find specific content.
+
+
+
+### Wireframes
+
+sdfsfsdfd
 
 
 
