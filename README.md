@@ -1,5 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Yogo For You - Project Banner](/assets/images/CI-Header-Readme-image.jpg)
 
+
+<p align="center">
+| <a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Live Project</a> |
+</p>
+
+#Overview
+
+This website is created as part of the Code Institute Full Stack a online resource for yoga enthusiasts of all levels. It aims to provide a user-friendly platform for learning, practicing, and exploring the benefits of yoga. The site is designed to cater to both beginners and experienced practitioners, offering a variety of content and features.
 Welcome Sarban Kumar,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
