@@ -40,11 +40,15 @@ Color selection is an important part of any design process; however, in this cas
 #ea3281
 
 
+
+
 ###fonts
 
 It was important to consider the font when designing the landing page for a positive user experience. An import code within the style.css file uses Google Fonts to implement the Roboto sans-serif font for the project.
 
 A friendly and easy-to-read font, Roboto
+
+
 
 
 
@@ -57,17 +61,27 @@ Adobe XD was used to create the desktop wireframe, and Photoshop was used for th
 ![Mobile Wireframe](/assets/images/Wireframe/Mobile-design.jpg)
 
 
+
+
+
+
 ###navigation-and-hero-section
+
+
 
 
 ###bootstrap-cards
 
 
 
+
 ###footer
 
 
+
 ###responsive-design
+
+
 
 A responsive implementation was achieved using the Bootstrap Framework without the need for additional CSS or media queries.
 
@@ -85,7 +99,7 @@ A Code Institute Template was used to create this GitHub project, which ensured 
 
 
 ###testing
-![HTML Validator](/assets/images/CI-Header-Readme-image.jpg)
+![HTML Validator](/assets/images/HTML-VALIDATOR.jpg)
 ![CSS Validator](/assets/images/CSS-Validation-Report.jpg)
 
 As a result of time constraints, I was unable to fix the CSS file bugs, but the styles on the page are unaffected.
@@ -95,19 +109,20 @@ As a result of time constraints, I was unable to fix the CSS file bugs, but the 
 
 ###credits
 For the hero image, I used the love-running project
-For general Bootstrap classes, visit http://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp
-Inspiration taken from Krishna Kaur's website https://www.krishnakaur.org/
-For tables, text and card classes  https://getbootstrap.com/docs/5.0/customize/components/
+
+- For general Bootstrap classes, visit http://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp
+- Inspiration taken from Krishna Kaur's website https://www.krishnakaur.org/
+- For tables, text and card classes  https://getbootstrap.com/docs/5.0/customize/components/
 
 External Links
-https://www.yogaallianceprofessionals.org/free-yoga-resources
-https://directory.yogaallianceprofessionals.org/united-kingdom/birmingham
+- https://www.yogaallianceprofessionals.org/free-yoga-resources
+- https://directory.yogaallianceprofessionals.org/united-kingdom/birmingham
 
 ###content-research
 
 A content research was conducted on Google, Wikipedia, as well as the website of Krishna Kaurs in order to develop the content.
-https://en.wikipedia.org/wiki/Yoga
-https://www.krishnakaur.org/
+- https://en.wikipedia.org/wiki/Yoga
+- https://www.krishnakaur.org/
 
 
 ###media
