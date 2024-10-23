@@ -45,6 +45,7 @@ This website is created as part of the Code Institute Full Stack Software Develo
 
 
 ![Desktop Wireframe](/assets/images/Wireframe/Web%201920%20–%201@2x.png)
+![Mobile Wireframe](/assets/images/Wireframe/Mobile-design.jpg)
 
 
 ###navigation-and-hero-section
